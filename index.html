@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <title>Store</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="categories"></div>
+    <div class="products"></div>
+    <div class="description"></div>
+</div>
+
+<form id="registration-form">
+    <label for="name">ПІБ покупця:</label>
+    <input type="text" id="name" name="name">
+    <br>
+
+    <label for="city">Місто:</label>
+    <select id="city" name="city">
+        <option value="Не обрано">Не обрано</option>
+        <option value="Київ">Київ</option>
+        <option value="Харків">Харків</option>
+        <option value="Львів">Львів</option>
+        <option value="Одеса">Одеса</option>
+        <option value="Дніпро">Дніпро</option>
+    </select>
+    <br>
+
+    <label for="post-office">Склад Нової пошти:</label>
+    <input type="text" id="post-office" name="post-office">
+    <br>
+
+    <div class="payment">
+        <label>Оплата:</label>
+        <input type="radio" id="payment" name="payment" value="післяплата">
+        <label for="payment">Післяплата</label>
+        <input type="radio" id="payment-bank" name="payment" value="банківська карта">
+        <label for="payment-bank">Банківська карта</label>
+    </div>
+    <br>
+
+    <label for="quantity">Кількість товарів під заказ:</label>
+    <input type="number" id="quantity" name="quantity">
+    <br>
+
+    <label for="comment">Коментар до замовлення:</label>
+    <textarea id="comment" name="comment"></textarea>
+    <br>
+
+    <button type="submit" id="submit">Сплатити</button>
+</form>
+
+<div class="order">
+    <button class="orderBtn">Мої замовлення</button>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

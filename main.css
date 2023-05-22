@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container > div{
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+}
+
+#registration-form{
+    display: none;
+}
+
+.div-info {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    font-size: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px;
+}
+caption {
+    padding: 10px;
+    color: white;
+    background: #8FD4C1;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+th, td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 10px 20px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+td {
+    background: #D8E6F3;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+}
+
+.delete-button {
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
